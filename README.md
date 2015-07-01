@@ -28,7 +28,7 @@
 1. 新浪微博sdk
 2. 百度地图定位
 3. 百度天气服务
-4. 传统json接卸&fastjson解析
+4. 传统json解析&fastjson解析
 5. cardview
 6. listview多布局
 7. 图片的三级缓存
