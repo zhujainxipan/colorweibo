@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#fff"
+        >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:paddingLeft="20dp"
+                  android:paddingRight="20dp"
+                  android:paddingTop="50dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+            >
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="作者寄语"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+
+        <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#ccc"
+                />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="欢迎进入彩色微博的奇妙世界。这是一款新浪微博第三方客户端，作者利用工作之余历经一个月之余完成。希望可以带给你奇妙的沉浸式的微博阅读体验。\n\n世界上没有任何完美的事物，这款还未完善的作品自然如此。如果您有任何疑问需要交流或者bug需要提交，可以访问我的博客和微博进行留言，或者发送邮件进行交流。\n\n制作人：安诺爱成长\n个人技术博客：http://blog.csdn.net/a910626\n新浪微博：三日成长\n邮箱：1399487511@qq.com"
+                android:textColor="#555"
+                android:textSize="15sp"
+                />
+
+
+        <!--更新日志-->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp"
+                android:text="开源说明"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+
+        <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#ccc"
+                />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#555"
+                android:textSize="15sp"
+                android:text="本软件后期会将所有源代码开源在github上，敬请期待\n\ngithub地址：https://github.com/zhujainxipan"
+                />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

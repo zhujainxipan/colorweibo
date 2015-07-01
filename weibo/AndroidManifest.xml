@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ht.weibo"
+          android:versionCode="1"
+          android:versionName="1.0"
+        >
+
+    <uses-sdk android:minSdkVersion="16"/>
+    <application
+            android:label="彩色微博"
+            android:icon="@drawable/icon"
+            android:name=".util.MyApplication"
+            >
+        <meta-data
+                android:name="com.baidu.lbsapi.API_KEY"
+                android:value="ceQBRIOAjRWP7Y0siqIT9F2E"
+                />
+
+        <activity
+                android:name=".ui.activity.LoginActivity"
+                android:theme="@android:style/Theme.NoTitleBar"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.MainActivity"
+                  android:logo="@drawable/ic_navdrawer"
+                  android:label="  首页"
+                  android:theme="@style/AppTheme"
+                />
+        <activity android:name=".ui.activity.MyAllWeiBoActivity"/>
+        <activity
+                android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+                android:configChanges="keyboardHidden|orientation"
+                android:windowSoftInputMode="adjustResize"
+                android:exported="false"
+                android:theme="@android:style/Theme.NoTitleBar"
+                >
+        </activity>
+        <activity android:name=".ui.activity.FavActivity"
+                  android:theme="@style/OtherTheme"
+                  android:logo="@drawable/ic_transparent"
+                  android:label=""
+                />
+        <activity android:name=".ui.activity.HotFavActivity"
+                  android:theme="@style/OtherTheme"
+                  android:logo="@drawable/ic_transparent"
+                  android:label=""
+                />
+        <activity android:name=".ui.activity.WBSquareActivity"
+                  android:theme="@style/OtherTheme"
+                  android:logo="@drawable/ic_transparent"
+                  android:label=""
+                />
+        <activity android:name=".ui.activity.HotTopicActivity"
+                  android:theme="@style/OtherTheme"
+                  android:logo="@drawable/ic_transparent"
+                  android:label=""
+                />
+        <activity android:name=".ui.activity.FriendsActivity"
+                  android:theme="@style/OtherTheme"
+                  android:logo="@drawable/ic_transparent"
+                  android:label=""
+                />
+        <activity android:name=".ui.activity.FollowersActivity"
+                  android:theme="@style/OtherTheme"
+                  android:logo="@drawable/ic_transparent"
+                  android:label=""
+                />
+        <activity android:name=".ui.activity.StatusActivity"
+                  android:theme="@style/OtherTheme"
+                  android:logo="@drawable/ic_transparent"
+                  android:label=""
+                  android:windowSoftInputMode="stateHidden"
+                />
+        <activity android:name=".ui.activity.AddWeiBoActivity"
+                  android:theme="@style/OtherTheme"
+                  android:logo="@drawable/ic_transparent"
+                  android:label=""
+                />
+        <activity android:name=".ui.activity.AboutActivity"
+                  android:theme="@style/OtherTheme"
+                  android:logo="@drawable/ic_transparent"
+                  android:label=""
+                />
+        <activity android:name=".ui.activity.FeedBackActivity"
+                  android:theme="@style/OtherTheme"
+                  android:logo="@drawable/ic_transparent"
+                  android:label=""
+                />
+        <activity android:name=".ui.activity.SplashActivity"
+                android:theme="@android:style/Theme.NoTitleBar"
+                />
+        <activity android:name=".ui.activity.TestActivity"/>
+
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote">
+        </service>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+</manifest>

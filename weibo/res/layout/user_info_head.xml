@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="#fff"
+        >
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <ImageView
+                android:id="@+id/user_info_head_wallpager"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/blue"
+                />
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/user_info_head_wallpager"
+                android:paddingLeft="8dip"
+                android:paddingTop="47dip"
+                android:background="@drawable/profile_avatar_frame_bg"
+                >
+
+            <ImageView
+                    android:id="@+id/user_info_head_avatar"
+                    android:layout_width="74dip"
+                    android:layout_height="74dip"
+                    android:layout_marginLeft="4dip"
+                    android:layout_marginTop="4dip"
+                    android:src="@drawable/ht"
+                    />
+
+            <TextView
+                    android:id="@+id/user_info_head_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/user_info_head_avatar"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginTop="4dip"
+                    android:layout_toRightOf="@id/user_info_head_avatar"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="0.0"
+                    android:shadowDy="1.0"
+                    android:shadowRadius="1.0"
+                    android:singleLine="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    />
+
+            <TextView
+                    android:id="@+id/user_info_head_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_below="@id/user_info_head_name"
+                    android:layout_toRightOf="@id/user_info_head_avatar"
+                    android:layout_marginTop="30dp"
+                    android:paddingLeft="10dp"
+                    />
+
+            <TextView
+                    android:id="@+id/user_info_head_adress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_below="@id/user_info_head_name"
+                    android:layout_toRightOf="@id/user_info_head_sex"
+                    android:layout_marginTop="30dp"
+                    android:paddingLeft="10dp"
+                    />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="#FAFAFA"
+            >
+
+        <TextView
+                android:id="@+id/user_info_head_weibo_count"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="\n微博"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                />
+
+        <TextView
+                android:id="@+id/user_info_head_guanzhu_count"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="\n关注"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+
+                />
+
+        <TextView
+                android:id="@+id/user_info_head_fensi_count"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="\n粉丝"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+
+                />
+
+    </LinearLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#EEEEEE"
+            ></View>
+
+
+</LinearLayout>

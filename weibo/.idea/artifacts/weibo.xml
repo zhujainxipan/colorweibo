@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="weibo">
+    <output-path>E:/张霄贺android视频</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyStoreUrl" value="file://" />
+        <option name="proGuardCfgFiles">
+          <list>
+            <option value="file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt" />
+          </list>
+        </option>
+      </options>
+    </properties>
+    <root id="archive" name="weibo.apk">
+      <element id="android-final-package" facet="weibo/android/Android" />
+    </root>
+  </artifact>
+</component>

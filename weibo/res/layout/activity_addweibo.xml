@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="10dp"
+              android:background="#eee"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+        <EditText
+                android:id="@+id/addweibo_content"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@null"
+                android:singleLine="false"
+                android:textColor="#000"
+                android:gravity="top"
+                android:textCursorDrawable="@null"
+                />
+
+        <ImageButton
+                android:id="@+id/activity_addweibo_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selector_addimg_button_bg"
+                android:background="@drawable/ic_transparent"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"
+                />
+
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eee"/>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                >
+
+            <ImageView
+                    android:clickable="true"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/act_timeline_add_at"
+                    android:layout_gravity="center_vertical"
+                    android:onClick="toOnClick"
+                    />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=" 的人"
+                    android:gravity="center_vertical"
+                    />
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="字数限制：140字"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="main_home_tab_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#F4F5F6</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:textColor">@color/radiobutton_color_selector</item>
+    </style>
+
+    <!--mainactivity的主题，重要是actionbar的主题的定制-->
+    <style name="AppTheme" parent="android:style/Theme.Holo" >
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarSize">55dp</item>
+        <item name="android:homeAsUpIndicator">@drawable/blueindic</item>
+    </style>
+
+    <!--对actionbar字体颜色的定制-->
+    <style name="TextAppearance.Holo.Widget.ActionBar.Title.Own" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!--对actionbar字体颜色的定制+actionbar背景的定制-->
+    <style name="MyActionBar" parent="android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/TextAppearance.Holo.Widget.ActionBar.Title.Own</item>
+        <item name="android:background">@drawable/blue</item>
+    </style>
+
+
+    <!--popupwindow加载的动画效果-->
+    <style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+
+    <!--Otheractivity的主题，重要是actionbar的主题的定制-->
+    <style name="OtherTheme" parent="android:style/Theme.Holo" >
+        <item name="android:actionBarStyle">@style/OtherActionBar</item>
+        <item name="android:homeAsUpIndicator">@drawable/back</item>
+        <item name="android:actionBarSize">55dp</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!--对actionbar字体颜色的定制+actionbar背景的定制-->
+    <style name="OtherActionBar" parent="android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/blue</item>
+    </style>
+
+
+    <!--以下是关于对话框的主题设置-->
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+
+    <!--滑动返回-->
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+
+
+    <!--发布微博自定义button-->
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+    </resources>

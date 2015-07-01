@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:paddingBottom="5dp"
+              android:layout_marginLeft="10dp"
+              android:paddingTop="5dp"
+              android:layout_marginRight="10dp"
+              android:background="#fff"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/item_frfe_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ht"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        <TextView
+                android:id="@+id/item_frfe_name"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="用户名"
+                android:textColor="#000"
+                android:layout_toRightOf="@id/item_frfe_icon"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+    <TextView
+            android:id="@+id/item_frfe_loc"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="诗和远方的国度"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/item_frfe_icon"
+            android:layout_below="@id/item_frfe_name"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            />
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE"
+            />
+
+</RelativeLayout>

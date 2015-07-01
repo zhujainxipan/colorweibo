@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#fff"
+              android:layout_gravity="start"
+              android:clickable="true"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="#3287C4"
+            >
+
+        <ImageView
+                android:id="@+id/leftmenu_usericon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ht"
+                android:layout_centerInParent="true"
+                />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="favOnClick"
+            android:background="@drawable/textviewcheck_bg_selector"
+            >
+
+        <TextView
+                android:id="@+id/favtextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的收藏"
+                android:textColor="#000"
+                android:paddingLeft="40dp"
+                android:textSize="18sp"
+                android:gravity="left"
+                android:layout_centerInParent="true"
+                />
+
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shoucang"
+                android:layout_toLeftOf="@id/favtextview"
+                android:layout_centerVertical="true"
+                />
+
+    </RelativeLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE"
+            />
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:onClick="hotFavOnClick"
+            android:clickable="true"
+            android:background="@drawable/textviewcheck_bg_selector"
+            >
+
+        <TextView
+                android:id="@+id/remen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="热门收藏"
+                android:textColor="#000"
+                android:paddingLeft="40dp"
+                android:textSize="18sp"
+                android:layout_centerInParent="true"
+                />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nearby_weibo"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/remen"
+                />
+
+
+    </RelativeLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE"
+            />
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:onClick="jingxuanOnClick"
+            android:clickable="true"
+            android:background="@drawable/textviewcheck_bg_selector"
+            >
+
+        <TextView
+                android:id="@+id/weibo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="微博广场"
+                android:textColor="#000"
+                android:paddingLeft="40dp"
+                android:textSize="18sp"
+                android:layout_centerInParent="true"
+                />
+
+        <ImageView
+                android:layout_toLeftOf="@id/weibo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hothuati"
+                android:layout_centerVertical="true"
+                />
+
+    </RelativeLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE"
+            />
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:onClick="hothuatiOnClick"
+            android:clickable="true"
+            android:background="@drawable/textviewcheck_bg_selector"
+            >
+
+
+        <TextView
+                android:id="@+id/huati"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="热门话题"
+                android:textColor="#000"
+                android:paddingLeft="40dp"
+                android:textSize="18sp"
+                android:layout_centerInParent="true"
+                />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/suibiankankan"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/huati"
+                />
+
+    </RelativeLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE"
+            />
+
+</LinearLayout>

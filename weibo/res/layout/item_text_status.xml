@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#eee"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2.5dp"
+        android:paddingBottom="2.5dp"
+        >
+
+<android.support.v7.widget.CardView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+            android:id="@+id/item_status_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:padding="5dp"
+            >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+            <ImageView
+                    android:id="@+id/item_status_user_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ht"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="fitXY"
+                    />
+
+            <TextView
+                    android:id="@+id/item_status_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="用户名"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:textColor="#fff"
+                    />
+
+            <TextView
+                    android:id="@+id/item_status_time"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:textColor="#fff"
+
+                    />
+
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/item_status_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#fff"
+
+                />
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                >
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/timeline_more_button_like"
+                    android:clickable="true"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            <TextView
+                    android:id="@+id/item_status_like_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="赞数"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#fff"
+                    android:clickable="true"
+                    android:paddingLeft="5dp"
+
+                    />
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/timeline_more_button_forward"
+                    android:clickable="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    />
+
+            <TextView
+                    android:id="@+id/item_status_forword_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="转发数"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#fff"
+                    android:clickable="true"
+                    android:paddingLeft="5dp"
+
+                    />
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/timeline_more_button_comment"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:layout_marginLeft="20dp"
+
+                    />
+
+            <TextView
+                    android:id="@+id/item_status_comment_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="评论数"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#fff"
+                    android:clickable="true"
+                    android:paddingLeft="5dp"
+
+                    />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
+        </LinearLayout>

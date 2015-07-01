@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fab="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+        <RelativeLayout
+                android:id="@+id/main_fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                ></RelativeLayout>
+
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+                android:id="@+id/multiple_actions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                fab:fab_addButtonColorNormal="@color/pink"
+                fab:fab_addButtonColorPressed="@color/pink_pressed"
+                fab:fab_addButtonPlusIconColor="@color/white"
+                fab:fab_labelStyle="@style/menu_labels_style"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp">
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+    </FrameLayout>
+
+    <RadioGroup
+            android:id="@+id/main_tab_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#F4F5F6"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            >
+
+        <RadioButton
+                android:id="@+id/tab_home"
+                android:text="首页"
+                android:drawableTop="@drawable/radiobutton_bg_selector_home"
+                style="@style/main_home_tab_style"
+                ></RadioButton>
+
+        <RadioButton
+                android:id="@+id/tab_message"
+                android:text="消息"
+                android:drawableTop="@drawable/radiobutton_bg_selector_msg"
+                style="@style/main_home_tab_style"
+                ></RadioButton>
+
+        <RadioButton
+                android:id="@+id/tab_discover"
+                android:text="发现"
+                android:drawableTop="@drawable/radiobutton_bg_selector_discover"
+                style="@style/main_home_tab_style"
+                ></RadioButton>
+
+        <RadioButton
+                android:id="@+id/tab_my"
+                android:text="个人"
+                android:drawableTop="@drawable/radiobutton_bg_selector_my"
+                style="@style/main_home_tab_style"
+                ></RadioButton>
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#fff"
+        >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:paddingLeft="20dp"
+                  android:paddingRight="20dp"
+                  android:paddingTop="50dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+            >
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="开发者"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+
+        <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#ccc"
+                />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="安诺爱成长"
+                android:textColor="#555"
+                android:textSize="15sp"
+                />
+
+
+        <!--更新日志-->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp"
+                android:text="更新日志"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+
+        <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#ccc"
+                />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2015-06-28 21:14:54：彩色微博1.0版实现的功能\n1. 查看关注好友的最新微博\n2. 查看收藏的微博\n3. 查看热门收藏\n4. 查看近期热门话题\n5. 查看微博详情并评论\n6. 查看收到的评论以及发出的评论\n7. 发布一条文字微博（暂不支持图片微博）\n8. 查看自己的粉丝和自己的关注\n9. 查看周围人\n10. 所有的页面支持滑动返回\n11. 查看周边微博\n\n更多功能，敬请期待"
+                android:textColor="#555"
+                android:textSize="15sp"
+                />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

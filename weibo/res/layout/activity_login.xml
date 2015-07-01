@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#fff"
+              android:paddingTop="120dp"
+        >
+
+
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/icon"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+        <Button
+                android:id="@+id/clientLoginButton"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="客户端授权登录"
+                android:textColor="#fe808080"
+                android:background="@drawable/selector_login_button_bg"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15dp"
+                />
+
+
+    <Button
+            android:id="@+id/webLoginButton"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="web网页授权登录"
+            android:textSize="15dp"
+            android:background="@drawable/selector_login_button_bg"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fe808080"
+            />
+</LinearLayout>
+
