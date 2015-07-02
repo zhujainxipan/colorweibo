@@ -31,6 +31,7 @@ import java.util.List;
 
 /**
  * Created by annuo on 2015/6/30.
+ * 涉及线程的嵌套，还没有想到很好的解决方案（此处代码有问题）
  */
 public class RecommendPeopleFragment extends Fragment implements Runnable, PullToRefreshBase.OnRefreshListener2<ListView> {
     private Oauth2AccessToken token;
