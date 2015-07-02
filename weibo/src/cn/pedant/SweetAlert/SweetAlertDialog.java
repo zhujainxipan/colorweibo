@@ -17,7 +17,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.ht.weibo.R;
+import com.ht.jellybean.R;
 import java.util.List;
 
 public class SweetAlertDialog extends Dialog implements View.OnClickListener {

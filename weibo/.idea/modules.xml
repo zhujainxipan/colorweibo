@@ -5,8 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/PagerSlidingTabStrip-library/PagerSlidingTabStrip-library.iml" filepath="$PROJECT_DIR$/PagerSlidingTabStrip-library/PagerSlidingTabStrip-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/WeiboSDK/WeiboSDK.iml" filepath="$PROJECT_DIR$/WeiboSDK/WeiboSDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/cardview-v7-library/cardview-v7-library.iml" filepath="$PROJECT_DIR$/cardview-v7-library/cardview-v7-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jellybean.iml" filepath="$PROJECT_DIR$/jellybean.iml" />
       <module fileurl="file://$PROJECT_DIR$/pulltorefresh-library/pulltorefresh-library.iml" filepath="$PROJECT_DIR$/pulltorefresh-library/pulltorefresh-library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/weibo.iml" filepath="$PROJECT_DIR$/weibo.iml" />
     </modules>
   </component>
 </project>

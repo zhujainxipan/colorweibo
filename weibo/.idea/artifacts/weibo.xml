@@ -12,7 +12,7 @@
       </options>
     </properties>
     <root id="archive" name="weibo.apk">
-      <element id="android-final-package" facet="weibo/android/Android" />
+      <element id="android-final-package" facet="jellybean/android/Android" />
     </root>
   </artifact>
 </component>

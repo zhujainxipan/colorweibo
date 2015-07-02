@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
-import com.ht.weibo.R;
+import com.ht.jellybean.R;
 
 public class SuccessTickView extends View {
     private float mDensity = -1;

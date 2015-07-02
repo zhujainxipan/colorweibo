@@ -69,7 +69,7 @@
                     android:paddingTop="10dp"
                     android:textColor="#fff"
                     />
-                <com.ht.weibo.ui.widget.MyGridView
+                <com.ht.jellybean.ui.widget.MyGridView
                         android:layout_below="@id/item_status_content"
                         android:id="@+id/item__status_imgs"
                         android:layout_width="246dp"
@@ -82,7 +82,7 @@
                         android:layout_marginTop="10dp"
                         >
 
-                </com.ht.weibo.ui.widget.MyGridView>
+                </com.ht.jellybean.ui.widget.MyGridView>
 
 
             <TextView
@@ -95,7 +95,7 @@
                     />
 
 
-            <com.ht.weibo.ui.widget.MyGridView
+            <com.ht.jellybean.ui.widget.MyGridView
                     android:layout_below="@id/item_status_content"
                     android:id="@+id/item_zhuanfa_status_imgs"
                     android:layout_width="246dp"
@@ -108,7 +108,7 @@
                     android:layout_marginTop="10dp"
                     >
 
-            </com.ht.weibo.ui.widget.MyGridView>
+            </com.ht.jellybean.ui.widget.MyGridView>
 
 
             <LinearLayout

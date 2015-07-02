@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.ht.weibo"
+          package="com.ht.jellybean"
           android:versionCode="1"
           android:versionName="1.0"
         >
 
     <uses-sdk android:minSdkVersion="16"/>
     <application
-            android:label="彩色微博"
+            android:label="果冻豆"
             android:icon="@drawable/icon"
-            android:name=".util.MyApplication"
+            android:name="com.ht.jellybean.util.MyApplication"
             >
         <meta-data
                 android:name="com.baidu.lbsapi.API_KEY"
@@ -17,7 +17,7 @@
                 />
 
         <activity
-                android:name=".ui.activity.LoginActivity"
+                android:name="com.ht.jellybean.ui.activity.LoginActivity"
                 android:theme="@android:style/Theme.NoTitleBar"
                 >
             <intent-filter>
@@ -25,12 +25,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activity.MainActivity"
+        <activity android:name="com.ht.jellybean.ui.activity.MainActivity"
                   android:logo="@drawable/ic_navdrawer"
                   android:label="  首页"
                   android:theme="@style/AppTheme"
                 />
-        <activity android:name=".ui.activity.MyAllWeiBoActivity"/>
+        <activity android:name="com.ht.jellybean.ui.activity.MyAllWeiBoActivity"/>
         <activity
                 android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
                 android:configChanges="keyboardHidden|orientation"
@@ -39,61 +39,61 @@
                 android:theme="@android:style/Theme.NoTitleBar"
                 >
         </activity>
-        <activity android:name=".ui.activity.FavActivity"
+        <activity android:name="com.ht.jellybean.ui.activity.FavActivity"
                   android:theme="@style/OtherTheme"
                   android:logo="@drawable/ic_transparent"
                   android:label=""
                 />
-        <activity android:name=".ui.activity.HotFavActivity"
+        <activity android:name="com.ht.jellybean.ui.activity.HotFavActivity"
                   android:theme="@style/OtherTheme"
                   android:logo="@drawable/ic_transparent"
                   android:label=""
                 />
-        <activity android:name=".ui.activity.WBSquareActivity"
+        <activity android:name="com.ht.jellybean.ui.activity.WBSquareActivity"
                   android:theme="@style/OtherTheme"
                   android:logo="@drawable/ic_transparent"
                   android:label=""
                 />
-        <activity android:name=".ui.activity.HotTopicActivity"
+        <activity android:name="com.ht.jellybean.ui.activity.HotTopicActivity"
                   android:theme="@style/OtherTheme"
                   android:logo="@drawable/ic_transparent"
                   android:label=""
                 />
-        <activity android:name=".ui.activity.FriendsActivity"
+        <activity android:name="com.ht.jellybean.ui.activity.FriendsActivity"
                   android:theme="@style/OtherTheme"
                   android:logo="@drawable/ic_transparent"
                   android:label=""
                 />
-        <activity android:name=".ui.activity.FollowersActivity"
+        <activity android:name="com.ht.jellybean.ui.activity.FollowersActivity"
                   android:theme="@style/OtherTheme"
                   android:logo="@drawable/ic_transparent"
                   android:label=""
                 />
-        <activity android:name=".ui.activity.StatusActivity"
+        <activity android:name="com.ht.jellybean.ui.activity.StatusActivity"
                   android:theme="@style/OtherTheme"
                   android:logo="@drawable/ic_transparent"
                   android:label=""
                   android:windowSoftInputMode="stateHidden"
                 />
-        <activity android:name=".ui.activity.AddWeiBoActivity"
+        <activity android:name="com.ht.jellybean.ui.activity.AddWeiBoActivity"
                   android:theme="@style/OtherTheme"
                   android:logo="@drawable/ic_transparent"
                   android:label=""
                 />
-        <activity android:name=".ui.activity.AboutActivity"
+        <activity android:name="com.ht.jellybean.ui.activity.AboutActivity"
                   android:theme="@style/OtherTheme"
                   android:logo="@drawable/ic_transparent"
                   android:label=""
                 />
-        <activity android:name=".ui.activity.FeedBackActivity"
+        <activity android:name="com.ht.jellybean.ui.activity.FeedBackActivity"
                   android:theme="@style/OtherTheme"
                   android:logo="@drawable/ic_transparent"
                   android:label=""
                 />
-        <activity android:name=".ui.activity.SplashActivity"
+        <activity android:name="com.ht.jellybean.ui.activity.SplashActivity"
                 android:theme="@android:style/Theme.NoTitleBar"
                 />
-        <activity android:name=".ui.activity.TestActivity"/>
+        <activity android:name="com.ht.jellybean.ui.activity.TestActivity"/>
 
         <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote">
         </service>

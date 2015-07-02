@@ -11,7 +11,7 @@ import android.graphics.drawable.shapes.Shape;
 import android.support.annotation.ColorRes;
 import android.support.annotation.DrawableRes;
 import android.util.AttributeSet;
-import com.ht.weibo.R;
+import com.ht.jellybean.R;
 
 public class AddFloatingActionButton extends FloatingActionButton {
   int mPlusColor;

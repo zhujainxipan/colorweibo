@@ -17,7 +17,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             ></com.handmark.pulltorefresh.library.PullToRefreshListView>
-    <com.ht.weibo.ui.widget.RoundProgressBar
+    <com.ht.jellybean.ui.widget.RoundProgressBar
             android:id="@+id/roundProgressBar"
             android:layout_width="40dip"
             android:layout_height="40dip"

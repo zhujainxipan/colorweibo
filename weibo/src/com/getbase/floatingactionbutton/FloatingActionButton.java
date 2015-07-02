@@ -28,7 +28,7 @@ import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import com.ht.weibo.R;
+import com.ht.jellybean.R;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

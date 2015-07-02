@@ -10,6 +10,14 @@
         <option name="packageNamePattern" value="com.ht.weibo" />
         <option name="pid" value="" />
       </filter>
+      <filter>
+        <option name="name" value="app: com.ht.xuancai" />
+        <option name="packageNamePattern" value="com.ht.xuancai" />
+      </filter>
+      <filter>
+        <option name="name" value="app: com.ht.jellybean" />
+        <option name="packageNamePattern" value="com.ht.jellybean" />
+      </filter>
     </filters>
   </component>
   <component name="AndroidLayouts">
@@ -136,7 +144,6 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.ht.weibo" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7447128a-2234-436d-8e07-07e26e4c7914" name="Default" comment="">
@@ -165,53 +172,63 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/shadow_bottom.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/shadow_left.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/shadow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/splashimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/splashimg.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/textview_normal.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/textview_press.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/timeline_rt_border.9.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/vote_tip_bg.9.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cardview-v7-library/src/.readme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/AboutActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/AboutActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/getbase/floatingactionbutton/AddFloatingActionButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/AddWeiBoActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/AddWeiBoActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cardview-v7-library/AndroidManifest.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/BaiduLBS_Android.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/thread/CacheImageAsyncTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/CommentListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/widget/DrawerArrowDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/FeedBackActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/thread/CacheImageAsyncTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/CommentListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/DiscoverFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/widget/DrawerArrowDrawable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/FavActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/FavContentListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/FeedBackActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/getbase/floatingactionbutton/FloatingActionButton.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/getbase/floatingactionbutton/FloatingActionsMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/FollowersActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/util/FormateTimeUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/model/weibo/FriFol.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/FriFolListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/FriendsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/model/weibo/HotFavList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/HotTopicActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/HotTopicListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/util/ImagSampleUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/util/ImageFileCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/util/ImageGetFromHttp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/util/ImageMemoryCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/MessageFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/MsgCommentFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/MsgCommentListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/MsgMyFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/util/MyApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/widget/MyGridView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/NearPeopleFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/NearWeiBoFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/FollowersActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/FormateTimeUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/model/weibo/FriFol.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/FriFolListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/FriendsActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/HomeFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/HotFavActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/model/weibo/HotFavList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/HotTopicActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/HotTopicListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/ImagSampleUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/ImageFileCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/ImageGetFromHttp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/ImageMemoryCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/LoginActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/MessageFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/MsgCommentFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/MsgCommentListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/MsgMyFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/MyApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/MyFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/widget/MyGridView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/NearPeopleFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/NearWeiBoFragment.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/pedant/SweetAlert/OptAnimationLoader.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/RecommendPeopleFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/widget/RippleView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/RecomListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/RecommendPeopleFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/widget/RippleView.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/pedant/SweetAlert/Rotate3dAnimation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/widget/RoundProgressBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/StatusActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/StatusImagsGridViewAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/util/StreamUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/util/StringCacheUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/widget/RoundProgressBar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/StatusActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/StatusContentListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/StatusImagsGridViewAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/StreamUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/StringCacheUtil.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/pedant/SweetAlert/SuccessTickView.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/pedant/SweetAlert/SweetAlertDialog.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/imid/swipebacklayout/lib/app/SwipeBackActivity.java" />
@@ -219,15 +236,16 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/imid/swipebacklayout/lib/app/SwipeBackActivityHelper.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/imid/swipebacklayout/lib/SwipeBackLayout.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/imid/swipebacklayout/lib/app/SwipeBackPreferenceActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/TestActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/util/TestUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/TestActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/TestUtil.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/getbase/floatingactionbutton/TouchDelegateGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/model/weibo/Trend.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/model/weibo/Trends.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/model/weibo/Trend.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/model/weibo/Trends.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/imid/swipebacklayout/lib/Utils.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/imid/swipebacklayout/lib/ViewDragHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/WBSquareActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/weibo/model/weibo/WBTrends.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/WBSquareActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/model/weibo/WBTrends.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/thread/WeatherTask.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_about.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_addweibo.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_feedback.xml" />
@@ -313,10 +331,20 @@
       <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\res\drawable\hotfav_head_gradient.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\res\drawable\hothuati_head_gradient.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\res\drawable\jingxuan_head_gradient.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\adapter\FavContentListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\adapter\StatusContentListAdapter.java" afterPath="" />
       <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\thread\ImageLoadTask.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\thread\WeatherTask.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\DiscoverFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\FavActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\HomeFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\HotFavActivity.java" afterPath="" />
       <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\HothuatiActivity.java" afterPath="" />
       <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\JingxuanActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\LoginActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\MainActivity.java" afterPath="" />
       <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\MessageFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\MyFragment.java" afterPath="" />
       <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\SsoLoginActivity.java" afterPath="" />
       <change type="DELETED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\WebLoginActivity.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/back.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/back.png" />
@@ -324,7 +352,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/Comment.java" afterPath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/Comment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/CommentList.java" afterPath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/CommentList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ht/weibo/Constants.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/Constants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/Favorite.java" afterPath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/Favorite.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/FavoriteList.java" afterPath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/FavoriteList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/Geo.java" afterPath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/Geo.java" />
@@ -345,7 +372,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/Tag.java" afterPath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/Tag.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/User.java" afterPath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/Visible.java" afterPath="$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/models/Visible.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ht/weibo/thread/WeatherTask.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/thread/WeatherTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiboSDK/WeiboSDK.iml" afterPath="$PROJECT_DIR$/WeiboSDK/WeiboSDK.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_fav.xml" afterPath="$PROJECT_DIR$/res/layout/activity_fav.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_hotfav.xml" afterPath="$PROJECT_DIR$/res/layout/activity_hotfav.xml" />
@@ -369,7 +395,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pulltorefresh-library/pulltorefresh-library.iml" afterPath="$PROJECT_DIR$/pulltorefresh-library/pulltorefresh-library.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo.iml" afterPath="$PROJECT_DIR$/weibo.iml" />
       <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\res\drawable\fav_head_gradient.xml" afterPath="$PROJECT_DIR$/res/drawable/head_gradient.xml" />
       <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\res\layout\activity_hothuati.xml" afterPath="$PROJECT_DIR$/res/layout/activity_hottopic.xml" />
       <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\res\layout\activity_jingxuan.xml" afterPath="$PROJECT_DIR$/res/layout/activity_wbsquare.xml" />
@@ -378,23 +403,21 @@
       <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\res\layout\item_text_essay.xml" afterPath="$PROJECT_DIR$/res/layout/item_text_status.xml" />
       <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\res\layout\jingxuan_head.xml" afterPath="$PROJECT_DIR$/res/layout/wbsquare_head.xml" />
       <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\res\layout\left_menu.xml" afterPath="$PROJECT_DIR$/res/layout/menu_left.xml" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\adapter\FavContentListAdapter.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/StatusContentListAdapter.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\adapter\GroupListAdapter.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/GroupListAdapter.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\adapter\StatusContentListAdapter.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/FavContentListAdapter.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\DiscoverFragment.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/DiscoverFragment.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\FavActivity.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/FavActivity.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\HomeFragment.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/HomeFragment.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\HotFavActivity.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/HotFavActivity.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\LoginActivity.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/LoginActivity.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\MainActivity.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/MainActivity.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\MyAllWeiBoActivity.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/MyAllWeiBoActivity.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\MyFragment.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/MyFragment.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\util\CacheUtil.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/util/MD5Util.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\util\RoundImageUtils.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/util/RoundImageUtil.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\weathermodel\CityWeather.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/model/weather/CityWeather.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\weathermodel\DayData.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/model/weather/DayData.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\weathermodel\Live.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/model/weather/Live.java" />
-      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\weathermodel\Weathers.java" afterPath="$PROJECT_DIR$/src/com/ht/weibo/model/weather/Weathers.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\Constants.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/Constants.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\adapter\GroupListAdapter.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/GroupListAdapter.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\ui\MyAllWeiBoActivity.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/MyAllWeiBoActivity.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\util\AccessTokenKeeper.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/AccessTokenKeeper.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\util\CacheUtil.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/MD5Util.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\util\CommonHttpUtil.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/CommonHttpUtil.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\util\FastJsonTools.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/FastJsonTools.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\util\HttpUtils.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/HttpUtils.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\util\RoundImageUtils.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/RoundImageUtil.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\util\UserInfoKeeper.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/util/UserInfoKeeper.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\weathermodel\CityWeather.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/model/weather/CityWeather.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\weathermodel\DayData.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/model/weather/DayData.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\weathermodel\Live.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/model/weather/Live.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\src\com\ht\weibo\weathermodel\Weathers.java" afterPath="$PROJECT_DIR$/src/com/ht/jellybean/model/weather/Weathers.java" />
+      <change type="MOVED" beforePath="E:\workspace\IntelliJDev\weibo\weibo.iml" afterPath="$PROJECT_DIR$/jellybean.iml" />
     </list>
     <ignored path="weibo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -446,13 +469,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/HotTopicActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/MyAllWeiBoActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/WBSquareActivity.java" />
-        <option value="$PROJECT_DIR$/res/drawable/login_button_shapepress.xml" />
-        <option value="$PROJECT_DIR$/res/drawable/login_button_shape.xml" />
-        <option value="$PROJECT_DIR$/res/values/dimen.xml" />
-        <option value="$PROJECT_DIR$/src/com/getbase/floatingactionbutton/AddFloatingActionButton.java" />
         <option value="$PROJECT_DIR$/src/com/getbase/floatingactionbutton/FloatingActionsMenu.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_test.xml" />
         <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/TestActivity.java" />
@@ -467,17 +483,12 @@
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/res/layout/main_content.xml" />
         <option value="$PROJECT_DIR$/src/com/ht/weibo/Constants.java" />
-        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/HomeFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/fragment_discover.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/ht/weibo/util/MyApplication.java" />
         <option value="$PROJECT_DIR$/res/layout/fragment_nearweibo.xml" />
-        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/DiscoverFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/fragment_nearpeople.xml" />
         <option value="$PROJECT_DIR$/src/com/ht/weibo/model/weibo/FriFol.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/NearWeiBoFragment.java" />
         <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/NearPeopleFragment.java" />
         <option value="$PROJECT_DIR$/res/menu/status_menu.xml" />
         <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/RecommListAdapter.java" />
@@ -485,9 +496,7 @@
         <option value="$PROJECT_DIR$/pulltorefresh-library/res/layout/pull_to_refresh_header_vertical.xml" />
         <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/SsoLoginActivity.java" />
         <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/WebLoginActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/RecommendPeopleFragment.java" />
         <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/FavContentListAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/StatusContentListAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/CommentListAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout/item_empty.xml" />
         <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/StatusActivity.java" />
@@ -497,6 +506,20 @@
         <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/LoginActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_about.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_feedback.xml" />
+        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/DiscoverFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/FavActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/MyFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/NearWeiBoFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/RecommendPeopleFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/WBSquareActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/HotFavActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/StatusContentListAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/RecomListAdapter.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/ht/jellybean/Constants.java" />
       </list>
     </option>
   </component>
@@ -515,8 +538,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="738" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -541,7 +565,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -573,26 +597,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -614,217 +620,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fragment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weather" />
+              <option name="myItemId" value="jellybean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -859,10 +655,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SweetAlert" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -874,32 +666,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
+              <option name="myItemId" value="gen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="jellybean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -917,10 +695,11 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/PagerSlidingTabStrip-library/src/com" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="ExportedModule" value="weibo" />
-    <property name="ExportedApkPath" value="E:\workspace\IntelliJDev\weibo\weibo.apk" />
+    <property name="ExportedModule" value="jellybean" />
+    <property name="ExportedApkPath" value="E:\workspace\IntelliJDev\weibo\jellybean.apk" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="AndroidProguardConfigPaths" value="D:\devetools\android-sdk-windows\tools\proguard\proguard-android.txt;E:\workspace\IntelliJDev\weibo\proguard-project.txt" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -947,7 +726,7 @@
       <recent name="com.ht.weibo.adapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.weibo">
+  <component name="RunManager" selected="Android Tests.WeiBoTest">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1097,8 +876,8 @@
       <method />
     </configuration>
     <configuration default="false" name="weibo" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="weibo" />
-      <option name="ACTIVITY_CLASS" value="com.ht.weibo.ui.activity.LoginActivity" />
+      <module name="jellybean" />
+      <option name="ACTIVITY_CLASS" value="com.ht.jellybean.ui.activity.LoginActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -1117,7 +896,7 @@
       <method />
     </configuration>
     <configuration default="false" name="WeiBoTest" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="WeiBoTest" />
+      <module name="jellybean" />
       <option name="TESTING_TYPE" value="0" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
@@ -1163,26 +942,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1382" height="738" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3637931" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36241612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25402635" sideWeight="0.5117057" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5604027" sideWeight="0.5030257" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28441754" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50517243" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50503355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41206896" sideWeight="0.39788198" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41778523" sideWeight="0.39788198" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28517398" sideWeight="0.4882943" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41206896" sideWeight="0.602118" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32586208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32550335" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24886535" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1194,6 +972,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="701" y="284" width="619" height="355" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28441754" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1211,18 +990,18 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39932886" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3637931" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36241612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="701" y="284" width="619" height="355" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28441754" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50517243" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50503355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41206896" sideWeight="0.40015128" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41778523" sideWeight="0.39788198" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28517398" sideWeight="0.4882943" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54697984" sideWeight="0.5998487" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32586208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41206896" sideWeight="0.602118" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32550335" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1245,13 +1024,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/MessageFragment.java</url>
+          <url>file://$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/MessageFragment.java</url>
           <line>48</line>
           <properties />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="71" />
+      <option name="time" value="72" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1260,106 +1039,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/legacy/AccountAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7089947">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08193669">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/widget/RippleView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5097002">
-          <caret line="118" column="44" selection-start-line="118" selection-start-column="44" selection-end-line="118" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/legacy/PlaceAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13051146">
-          <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/NearWeiBoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44973546">
-          <caret line="203" column="76" selection-start-line="203" selection-start-column="76" selection-end-line="203" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/addweibo_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_navdrawer.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_ab_back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_action_send_now.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_fab_star.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/status_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/fav_en_light.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/fab_bg_normal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/fab_bg_mini.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/home_tab_icon_1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1396,21 +1075,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.navigation/PagerSlidingTabStrip-library/raw/main.nvg.xml">
+      <provider selected="true" editor-type-id="navigationeditor">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="navigationeditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeiboSDK/proguard-project.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5996473">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1436,7 +1113,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/NearPeopleFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/NearPeopleFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3633157">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
@@ -1446,23 +1123,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/legacy/SuggestionsAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1992946">
-          <caret line="124" column="7" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/RecommendPeopleFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14991182">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/FavContentListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/FavContentListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="356" column="0" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
@@ -1470,7 +1131,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/FriFolListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/FriFolListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
@@ -1478,7 +1139,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/GroupListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/GroupListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
@@ -1486,7 +1147,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/FromMyCommentListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/FromMyCommentListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
@@ -1494,26 +1155,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/HotTopicListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/HotTopicListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/StatusContentListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/fragment/HomeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5097002">
-          <caret line="83" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1529,16 +1174,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/adapter/CommentListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/CommentListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.5291005">
           <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1576,43 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/activity/StatusActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="243" column="10" selection-start-line="243" selection-start-column="10" selection-end-line="243" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/activity/WBSquareActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/activity/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/activity/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7586207">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
-          <folding>
-            <element signature="e#2274#2316#0" expanded="true" />
-            <element signature="e#3755#3797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_feedback.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -1628,7 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1636,7 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1648,7 +1254,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/widget/RoundProgressBar.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/widget/RoundProgressBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3321234">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="29" />
@@ -1656,7 +1262,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/widget/DrawerArrowDrawable.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/widget/DrawerArrowDrawable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18511796">
           <caret line="40" column="32" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="32" />
@@ -1675,7 +1281,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/activity/AboutActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/AboutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33938295">
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
@@ -1683,10 +1289,209 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ht/weibo/ui/activity/AddWeiBoActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/AddWeiBoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21597096">
           <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/DiscoverFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/FavActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="55" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/HotTopicActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/MyAllWeiBoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.329806">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/TestActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20987654">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/MyFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53968257">
+          <caret line="98" column="50" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53968257">
+          <caret line="123" column="54" selection-start-line="123" selection-start-column="54" selection-end-line="123" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/HotFavActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="146" column="25" selection-start-line="143" selection-start-column="47" selection-end-line="146" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="262" column="8" selection-start-line="262" selection-start-column="8" selection-end-line="262" selection-end-column="8" />
+          <folding>
+            <element signature="e#1920#1921#0" expanded="true" />
+            <element signature="e#1951#1952#0" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2039#2040#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#2107#2108#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="42" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/NearWeiBoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6895943">
+          <caret line="152" column="13" selection-start-line="152" selection-start-column="13" selection-end-line="152" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/StatusActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="243" column="10" selection-start-line="243" selection-start-column="10" selection-end-line="243" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/RecomListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/fragment/RecommendPeopleFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiboSDK/src/com/sina/weibo/sdk/openapi/legacy/SuggestionsAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0670194">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/adapter/StatusContentListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44973546">
+          <caret line="145" column="39" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/ui/activity/WBSquareActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6031746">
+          <caret line="143" column="21" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/ids.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/splashimg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28228784">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029982364">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ht/jellybean/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64021164">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding />
         </state>
       </provider>
