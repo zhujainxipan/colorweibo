@@ -133,9 +133,9 @@ public class WBSquareActivity extends SwipeBackActivity implements PullToRefresh
                 if (!TextUtils.isEmpty(response)) {
                     StatusList statusList = StatusList.parse(response);
                     if (statusList != null) {
-                        statuses = statusList.statusList;
-                        if (statuses != null) {
-                            statuses.addAll(statusList.statusList);
+                        List<Status> statuses1 = statusList.statusList;
+                        if (statuses1 != null) {
+                            statuses.addAll(statuses1);
                             statusContentListAdapter.notifyDataSetChanged();
                         } else
                             Toast.makeText(WBSquareActivity.this, "没有更多数据了", Toast.LENGTH_LONG).show();
