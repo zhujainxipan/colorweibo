@@ -170,7 +170,8 @@ public class StatusContentListAdapter extends BaseAdapter {
                     Status retweetedStatus = status.retweeted_status;
                     if (retweetedStatus != null) {
                         User retweetedUser = retweetedStatus.user;
-                        String name = retweetedUser.name;
+                        if (user != null) {
+                                                    String name = retweetedUser.name;
                         String text = retweetedStatus.text;
                         if (text != null) {
                             //显示转发微博的内容
@@ -181,6 +182,7 @@ public class StatusContentListAdapter extends BaseAdapter {
                             //显示转发微博的图片信息
                             StatusImagsGridViewAdapter imagsGridViewAdapter = new StatusImagsGridViewAdapter(context, picUrls);
                             zhuanFaViewHolder.zhanFamyGridView.setAdapter(imagsGridViewAdapter);
+                        }
                         }
                     }
                 }
