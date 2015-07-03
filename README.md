@@ -5,6 +5,7 @@
 ##app体验下载地址
 
 
+<a href="http://www.wandoujia.com/apps/com.ht.jellybean" target="_blank">http://www.wandoujia.com/apps/com.ht.jellybean</a>
 
 ##所实现的功能
 
